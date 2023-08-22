@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 
-import { newFeatures, startingFeatures } from "../constants";
-import { NewFeatures, StartSteps, TitleText, TypingText } from "../components";
+import { startingFeatures } from "../constants";
+import { StartSteps, TitleText, TypingText } from "../components";
 import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
 import Image from "next/image";
 
