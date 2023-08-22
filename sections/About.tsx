@@ -7,13 +7,12 @@ import { fadeIn, planetVariants, staggerContainer } from "../utils/motion";
 import Image from "next/image";
 import Link from "next/link";
 
-const About = ({ staggerContainer }) => {
+const About = () => {
   return (
     <section className="w-[90%] relative z-10" id="about">
       <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0vh] z-0" />
 
       <motion.div
-        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.5 }}
