@@ -1,0 +1,35 @@
+"use client";
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { navVariants } from "../utils/motion";
+import Image from "next/image";
+
+const Navbar = () => (
+  <motion.nav
+    variants={navVariants}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings} py-4 relative`}
+  >
+    <div className="absolute w-[50%] inset-0 gradient-01" />
+    <div
+      className={`${styles.innerWidth} text-white mx-auto flex justify-between items-center gap-8`}
+    >
+      <h2 className="font-bold text-[24px]">Michael.dev</h2>
+
+      <div className="flex gap-10 items-center">
+        <h2 className="">Home</h2>
+        <h2 className="">Skills</h2>
+        <h2 className="">Projects</h2>
+        <Image src="/facebook.svg" width={20} height={20} alt="facebook icon" />
+        <Image src="/linkedin.svg" width={20} height={20} alt="facebook icon" />
+        <button className=" border-white border-[1px] border-solid bg-[#050404] px-2 py-2">
+          Let's connect
+        </button>
+      </div>
+    </div>
+    <div></div>
+  </motion.nav>
+);
+
+export default Navbar;
