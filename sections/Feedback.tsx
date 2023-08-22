@@ -7,7 +7,6 @@ import Image from "next/image";
 const Feedback = () => (
   <section className="paddings relative z-10">
     <motion.div
-      variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}

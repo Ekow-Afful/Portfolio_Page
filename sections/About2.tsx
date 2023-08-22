@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { startingFeatures } from "../constants";
 import { StartSteps, TitleText, TypingText } from "../components";
-import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
+import { planetVariants, fadeIn } from "../utils/motion";
 import Image from "next/image";
 
 const About2 = () => (
@@ -12,7 +12,6 @@ const About2 = () => (
     <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0vh] z-0" />
 
     <motion.div
-      variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.5 }}

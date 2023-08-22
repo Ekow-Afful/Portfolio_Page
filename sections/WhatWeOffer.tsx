@@ -12,7 +12,6 @@ const WhatWeOffer = () => {
   return (
     <section className="paddings mt-[60px]" id="whatweoffer">
       <motion.div
-        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}

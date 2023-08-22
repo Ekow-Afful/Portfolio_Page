@@ -3,14 +3,13 @@
 import { motion } from "framer-motion";
 
 import { TitleText, TypingText } from "@/components";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 import Image from "next/image";
 
 const World = () => (
   <section className="paddings relative z-10">
     <motion.div
-      variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}

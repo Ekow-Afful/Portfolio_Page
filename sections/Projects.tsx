@@ -3,13 +3,11 @@
 import { motion } from "framer-motion";
 
 import { InsightCard, TitleText, TypingText } from "@/components";
-import { staggerContainer } from "../utils/motion";
 import { insights } from "@/constants";
 
 const Projects = () => (
   <section className="paddings relative z-10" id="projects">
     <motion.div
-      variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
