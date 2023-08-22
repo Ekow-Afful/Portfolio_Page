@@ -8,7 +8,6 @@ import Link from "next/link";
 const Hero = () => (
   <section className=" relative z-30 w-full h-[100vh] flex text-white ">
     <motion.div
-      variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
