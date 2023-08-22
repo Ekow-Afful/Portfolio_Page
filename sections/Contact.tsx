@@ -83,7 +83,7 @@ const Contact = () => {
 
             <motion.div variants={slideIn("right", "spring", 0.4, 2.8)}>
               <textarea
-                rows="6"
+                rows={6}
                 placeholder="Message (optional)"
                 name="message"
                 className="w-[100%] sm:w-full mb-[1rem] p-[10px_10px] md:p-[10px_10px] text-[1.1rem] md:text-[1.2rem] text-white bg-transparent border-[1px] font-normal rounded-xl"
