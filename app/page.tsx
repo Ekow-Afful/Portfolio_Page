@@ -23,8 +23,9 @@ export default function Home() {
 
       <div className="snap-start relative z-0 ">
         <About />
-        <div className="gradient-03 z-0" />
+
         <div className="snap-start relative z-0 ">
+          <div className="gradient-03 z-0" />
           <About2 />
         </div>
       </div>

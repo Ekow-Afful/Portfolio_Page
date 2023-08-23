@@ -9,8 +9,6 @@ import Image from "next/image";
 
 const About2 = () => (
   <section className="mt-[30px] md:mt-0 w-[90%] relative z-10" id="about2">
-    <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0vh] z-0" />
-
     <motion.div
       initial="hidden"
       whileInView="show"
