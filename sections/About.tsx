@@ -57,6 +57,7 @@ const About = () => {
                       alt="arrow"
                       width={100}
                       height={100}
+                      priority
                       className="w-[40%] h-[40%] object-contain "
                     />
                   </div>

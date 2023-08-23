@@ -15,7 +15,7 @@ import Projects from "@/sections/Projects";
 
 export default function Home() {
   return (
-    <main className="  h-[100vh] text-white flex-col overflow-x-hidden bg-[#0e151f]">
+    <main className="  h-[100vh] text-white flex-col overflow-x-hidden bg-[#030014]">
       <div className="bg-[url('/banner-bg.png')] snap-start">
         <Navbar />
         <Hero />

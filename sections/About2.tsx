@@ -50,6 +50,7 @@ const About2 = () => (
               alt="planet image"
               width={800}
               height={800}
+              priority
               className="w-[70%] h-[70%] sm:w-[100%] sm:h-[100%] lg:w-[80%] lg:h-[80%] object-contain mx-auto "
             />
           </div>

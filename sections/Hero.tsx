@@ -40,6 +40,7 @@ const Hero = () => (
               alt="tech stack"
               width={300}
               height={300}
+              priority
               className="object-contain"
             />
           </div>
