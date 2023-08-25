@@ -49,19 +49,7 @@ const Hero = () => (
       <motion.div
         variants={slideIn("right", "spring", 0.1, 2.0)}
         className="relative w-[50%] md:mt-[20px] -mt-[12px]"
-      >
-        <div className="absolute bottom-[60px] left-[800px]  w-full h-[400px] ">
-          <Link href="#about ">
-            <Image
-              src="/planet-01.png"
-              alt="hero image"
-              width={800}
-              height={200}
-              className="object-contain hover:-translate-x-1 hover:-translate-y-1 "
-            />
-          </Link>
-        </div>
-      </motion.div>
+      ></motion.div>
     </motion.div>
   </section>
 );
