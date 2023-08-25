@@ -1,5 +1,7 @@
 "use client";
 
+import React, { useState } from "react";
+
 import { motion } from "framer-motion";
 import {
   fadeIn,
@@ -10,6 +12,7 @@ import {
 import Image from "next/image";
 
 const Contact = () => {
+  const [hide, setHide] = useState(false);
   return (
     <section
       className="pt-10 relative z-10 bg-gradient flex w-full"
@@ -21,18 +24,25 @@ const Contact = () => {
         viewport={{ once: true, amount: 0.25 }}
         className="2xl:w-[90%] lg:w-[90%] mx-auto flex flex-col px-4"
       >
-        <div className="flex gap-12 ">
-          <motion.div className="w-1/2 flex-center flex-row">
+        <div className={hide ? "flex gap-0" : "flex gap-12"}>
+          <motion.div
+            className={`${hide ? "w-0" : " w-1/2"} flex-center flex-row`}
+          >
             <Image
               src="/contact-img.svg"
               alt="contact image"
               width={1000}
               height={1000}
-              className="w-full h-full object-contain"
+              className={`${
+                hide ? "hidden w-0 sm:flex" : "w-full "
+              } h-full object-contain`}
             />
           </motion.div>
 
-          <motion.div className="w-1/2 flex  flex-col">
+          <motion.div
+            className={`${hide ? "w-full" : "w-1/2"}  flex flex-col `}
+            onClick={() => setHide(true)}
+          >
             <motion.div variants={slideIn("right", "spring", 0.3, 1.8)}>
               <h3 className="text-[30px] md:text-[52px] font-bold pb-4 md:pb-8">
                 Get in Touch

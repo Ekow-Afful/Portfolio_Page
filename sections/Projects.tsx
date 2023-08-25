@@ -15,7 +15,15 @@ const Projects = () => (
     >
       <TypingText title="| Projects" textStyles="text-center" />
       <TitleText
-        title="Some of the Worlds we’ve built"
+        title={
+          <>
+            Some of{" "}
+            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              the Worlds{" "}
+            </span>
+            We’ve Built
+          </>
+        }
         textStyles="text-center"
       />
       <div className="mt-[50px] flex flex-col gap-[30px] ">

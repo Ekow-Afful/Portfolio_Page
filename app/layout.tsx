@@ -23,10 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-[#030014] overflow-x-hidden overflow-y-scroll ${poppins.className} `}
+        className={`bg-[#030014] overflow-x-clip transition-all duration-700 w-full ${poppins.className} `}
       >
-        <div className="bg-[url('/banner-bg.png')]">
-          <Navbar />
+        <div className="">
+          {/* <Navbar /> */}
           <Hero />
         </div>
         {children}

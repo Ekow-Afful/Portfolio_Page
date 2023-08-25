@@ -13,7 +13,7 @@ import Projects from "@/sections/Projects";
 
 export default function Home() {
   return (
-    <main className="w-full text-white flex-col ">
+    <main className=" text-white flex-col ">
       <div className="relative z-0 ">
         <About />
         <div className=" relative z-0 ">

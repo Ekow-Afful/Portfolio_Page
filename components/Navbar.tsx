@@ -10,9 +10,18 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`relative z-20 w-[90%] mx-auto py-4`}
+    className={`relative z-20 w-[90%] mx-auto py-4 overflow-hidden `}
   >
     {/* <div className="absolute -left-80 w-[50%] inset-0 gradient-01" /> */}
+    {/* <div className="absolute -z-20 -top-40 left-[35%]">
+      <Image
+        src="/moon-1.png"
+        width={800}
+        height={800}
+        alt="moon"
+        className="object-contain w-[400px] h-[400px]"
+      />
+    </div> */}
 
     <div
       className={` text-white mx-auto flex justify-between items-center gap-8 `}
