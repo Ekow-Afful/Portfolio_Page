@@ -115,10 +115,10 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className="w-[90%] mx-auto text-white relative lg:top-[320px] top-[300px] z-30"
     >
-      <div className=" w-[70%] flex gap-8 justify-center items-center md:items-start md:mx-0 mx-auto text-center md:text-left flex-col ">
+      <div className=" w-[90%] flex gap-8 justify-center items-center lg:items-start lg:mx-0 mx-auto text-center lg:text-left flex-col ">
         <motion.h1
           variants={textVariant(1.1)}
-          className="text-center md:text-left text-[40px] font-bold"
+          className="text-center lg:text-left text-[40px] font-bold"
         >
           Front-End{" "}
           <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -157,7 +157,7 @@ const Hero = () => (
         variants={slideIn("right", "spring", 0.1, 2.0)}
         className="relative w-[50%] md:mt-[20px] -mt-[12px]"
       >
-        <div className="absolute 2xl:bottom-[120px] 2xl:left-[850px] xl:bottom-[120px] xl:left-[770px] lg:bottom-[50px] lg:left-[600px] xl:w-[80%] w-[90%] h-[400px] md:flex hidden ">
+        <div className="absolute 2xl:bottom-[120px] 2xl:left-[850px] xl:bottom-[120px] xl:left-[770px] lg:bottom-[50px] lg:left-[600px] xl:w-[80%] w-[90%] h-[400px] lg:flex hidden ">
           <Link href="#about ">
             <Image
               src="/header-3.svg"
