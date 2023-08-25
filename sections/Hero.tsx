@@ -53,7 +53,7 @@ const Hero = () => (
         <div className="absolute bottom-[60px] left-[800px]  w-full h-[400px] ">
           <Link href="#about ">
             <Image
-              src="/header-3.svg"
+              src="/header-2.svg"
               alt="hero image"
               width={800}
               height={200}

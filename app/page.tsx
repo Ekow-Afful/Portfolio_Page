@@ -9,15 +9,13 @@ import WhatWeOffer from "@/sections/WhatWeOffer";
 import Feedback from "@/sections/Feedback";
 import Skills from "@/sections/Skills";
 import World from "@/sections/World";
-import Image from "next/image";
 import Projects from "@/sections/Projects";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen text-white flex-col ">
+    <main className="w-full text-white flex-col ">
       <div className="relative z-0 ">
         <About />
-
         <div className=" relative z-0 ">
           <div className="gradient-03 z-0" />
           <About2 />
