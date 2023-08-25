@@ -34,6 +34,7 @@ const World = () => (
           alt="map"
           height={400}
           width={400}
+          loading="eager"
           className="w-full h-full object-contain"
         />
         <div className="absolute bottom-[18%] right-[8%]  md:bottom-20  md:right-20  lg:bottom-[23%] lg:right-[10%] 2xl:bottom-[23%] 2xl:right-[18%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] ">
