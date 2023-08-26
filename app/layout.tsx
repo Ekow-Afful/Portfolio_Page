@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-[#030014] overflow-x-clip transition-all duration-700 w-full ${poppins.className} `}
+        className={`bg-[#030014] overflow-x-clip w-full ${poppins.className} `}
       >
-        <div className="">
+        <div>
           {/* <Navbar /> */}
           <Hero />
         </div>

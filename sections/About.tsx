@@ -9,8 +9,8 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="w-[90%] relative z-10" id="about">
-      <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0vh] z-0" />
+    <section className="w-[90%] relative top-0 z-10" id="about">
+      <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0] z-0" />
 
       <motion.div
         initial="hidden"
@@ -23,7 +23,7 @@ const About = () => {
             variants={planetVariants("left")}
             className="sm:w-[50%] flex-center "
           >
-            <div className="mt-[100px]">
+            <div className="md:mt-[100px]">
               <Image
                 src="/get-started.png"
                 alt="planet image"
@@ -44,7 +44,7 @@ const About = () => {
                 textStyles=""
                 title={<>Providing solutions to anyone across the Globe</>}
               />
-              <div className="flex items-center gap-4 mt-8">
+              <div className="flex items-center gap-4 mt-6">
                 <Link href="#contact">
                   <h4 className="text-[18px] font-medium text-[#c7c7c7]">
                     Let’s Connect

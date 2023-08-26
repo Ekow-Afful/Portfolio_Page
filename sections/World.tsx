@@ -17,7 +17,7 @@ const World = () => (
     >
       <TypingText textStyles="text-center" title="| Developer for Everyone" />
       <TitleText
-        textStyles="text-center px-[12%]"
+        textStyles="text-center md:px-[12%]"
         title={
           <>
             Unlocking Solutions Worldwide: Wherever you are, we've got the

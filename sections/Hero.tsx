@@ -5,13 +5,14 @@ import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components";
+import Stars from "@/components/Stars";
 
 const Hero = () => (
-  <section className=" relative z-30 w-full h-[100vh] flex text-white bg-[url('/main.svg')]">
+  <section className=" relative z-30 w-full h-[95vh] sm:h-[100vh] flex text-white bg-[url('/main.svg')]">
     <div className="absolute w-full">
       <Navbar />
     </div>
-    <div className="absolute w-full -z-20 -top-[160px] left-[40%] mx-auto justify-center items-center">
+    <div className="absolute w-full -z-20 -top-[115px] left-[40%] mx-auto justify-center items-center">
       <Image
         src="/moon-2.png"
         width={800}
@@ -21,93 +22,7 @@ const Hero = () => (
       />
     </div>
 
-    <div className="bg-black h-screen z-40 absolute left-[10%] top-[30%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[90%] top-[30%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[50%] top-[60%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[40%] top-[40%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[90%] top-[80%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[80%] top-[20%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[30%] top-[10%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
-
-    <div className="bg-black h-screen z-40 absolute left-[10%] top-[80%] items-center justify-center">
-      <div className="stars-container">
-        <div className="stars">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-      </div>
-    </div>
+    <Stars />
 
     <motion.div
       initial="hidden"

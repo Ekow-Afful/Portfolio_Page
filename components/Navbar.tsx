@@ -10,7 +10,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`relative z-20 w-[90%] mx-auto py-4 overflow-hidden `}
+    className={`relative z-20 w-[90%] mx-auto sm:py-4 py-3 mt-[2px] sm:mt-0 px-4 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 `}
   >
     {/* <div className="absolute -left-80 w-[50%] inset-0 gradient-01" /> */}
     {/* <div className="absolute -z-20 -top-40 left-[35%]">
@@ -41,7 +41,7 @@ const Navbar = () => (
         <Image src="/facebook.svg" width={20} height={20} alt="facebook icon" />
         <Image src="/linkedin.svg" width={20} height={20} alt="facebook icon" />
         <Link href="#contact">
-          <button className="text-[10px] lg:text-[17px] border-white border-[1px] border-solid bg-[#050404] px-2 py-2">
+          <button className="text-[10px] lg:text-[17px] flex items-center justify-center rounded-full bg-[rgba(20,9,9,0.55)] hover:scale-105 hover:bg-[#00000057] transition-all duration-300 px-2 py-2">
             Let's connect
           </button>
         </Link>

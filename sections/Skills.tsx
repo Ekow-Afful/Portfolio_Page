@@ -4,10 +4,10 @@ import React from "react";
 const Skills = () => {
   return (
     <div
-      className="w-full px-10 flex items-start justify-center z-10 mt-40 lg:mt-10 "
+      className="w-full px-4 sm:px-10 flex items-start justify-center z-10 mt-[100px] lg:mt-10 "
       id="skills"
     >
-      <div className="flex-center bg-[#0C0B0B] rounded-[40px] py-8 relative z-10 lg:w-[55%] md:w-[70%] sm:w-[80%] w-[95%]">
+      <div className="flex-center bg-[#0C0B0B] rounded-[40px] sm:py-8 py-6 relative z-10 lg:w-[55%] md:w-[70%] sm:w-[80%] w-[95%]">
         <div className="flex items-center justify-start flex-col gap-14 w-full ">
           <div className="flex-center">
             <h2 className="text-[30px] font-bold">Skills</h2>
