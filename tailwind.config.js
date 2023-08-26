@@ -15,7 +15,7 @@ module.exports = {
         "secondary-white": "#c7c7c7",
       },
       fontFamily: {
-        roboto: "Roboto",
+        Sans: ["var(--font-roboto)"],
       },
       // animation: {
       //   slideup: "slideup 0.7s ease-in-out",

@@ -33,7 +33,7 @@ const Hero = () => (
       <div className=" w-[90%] flex gap-8 justify-center items-center lg:items-start lg:mx-0 mx-auto text-center lg:text-left flex-col ">
         <motion.h1
           variants={textVariant(1.1)}
-          className="text-center lg:text-left text-[40px] font-bold"
+          className="text-center lg:text-left text-[47px] font-bold"
         >
           Front-End{" "}
           <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -45,14 +45,14 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1
-            className={`lg:text-[25px] text-[20px] font-normal text-secondary-white `}
+            className={`lg:text-[24px] text-[20px] font-normal text-slate-400 `}
           >
             Hi I’m Michael, a passionate react <br /> Front-end Dev as well as a
             UI/UX <br /> Designer
           </h1>
         </motion.div>
         <motion.div variants={textVariant(1.3)} className="flex gap-4">
-          <motion.h1 className="flex flex-row justify-center items-center">
+          <motion.h1 className="flex flex-row justify-center items-center text-slate-400">
             Tech Stack
           </motion.h1>
           <div className="flex-center gap-4">
@@ -60,7 +60,7 @@ const Hero = () => (
             <Image
               src="/techstack.svg"
               alt="tech stack"
-              width={300}
+              width={200}
               height={300}
               priority
               className="object-contain"

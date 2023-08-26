@@ -41,7 +41,7 @@ const Navbar = () => (
         <Image src="/facebook.svg" width={20} height={20} alt="facebook icon" />
         <Image src="/linkedin.svg" width={20} height={20} alt="facebook icon" />
         <Link href="#contact">
-          <button className="text-[10px] lg:text-[17px] flex items-center justify-center rounded-full bg-[rgba(20,9,9,0.55)] hover:scale-105 hover:bg-[#00000057] transition-all duration-300 px-2 py-2">
+          <button className="text-[10px] lg:text-[17px] flex items-center justify-center rounded-full bg-[rgba(20,9,9,0.55)] hover:scale-105 hover:bg-[#00000057] transition-all duration-300 px-4 py-2">
             Let's connect
           </button>
         </Link>
