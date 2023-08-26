@@ -24,9 +24,11 @@ const Contact = () => {
         viewport={{ once: true, amount: 0.25 }}
         className="2xl:w-[90%] lg:w-[90%] mx-auto flex flex-col px-4"
       >
-        <div className={hide ? "flex gap-0" : "flex gap-12"}>
+        <div className={hide ? "flex gap-0 sm:gap-12" : "flex gap-12"}>
           <motion.div
-            className={`${hide ? "w-0" : " w-1/2"} flex-center flex-row`}
+            className={`${
+              hide ? "w-0 sm:w-1/2" : " w-1/2"
+            } flex-center flex-row`}
           >
             <Image
               src="/contact-img.svg"
@@ -34,13 +36,13 @@ const Contact = () => {
               width={1000}
               height={1000}
               className={`${
-                hide ? "hidden w-0 sm:flex" : "w-full "
+                hide ? "hidden w-0 sm:w-full sm:flex" : "w-full "
               } h-full object-contain`}
             />
           </motion.div>
 
           <motion.div
-            className={`${hide ? "w-full" : "w-1/2"}  flex flex-col `}
+            className={`${hide ? "w-full sm:w-1/2" : "w-1/2"}  flex flex-col `}
             onClick={() => setHide(true)}
           >
             <motion.div variants={slideIn("right", "spring", 0.3, 1.8)}>
