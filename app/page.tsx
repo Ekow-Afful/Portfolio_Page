@@ -1,6 +1,5 @@
 "use client";
 
-import { Footer } from "@/components";
 import Navbar from "@/components/Navbar";
 import About from "@/sections/About";
 import About2 from "@/sections/About2";
@@ -10,10 +9,11 @@ import Feedback from "@/sections/Feedback";
 import Skills from "@/sections/Skills";
 import World from "@/sections/World";
 import Projects from "@/sections/Projects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className=" text-white flex-col ">
+    <main className=" text-white flex-col overflow-x-clip ">
       <div className="relative z-0 ">
         <About />
         <div className=" relative z-0 ">

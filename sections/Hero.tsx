@@ -8,7 +8,7 @@ import { Navbar } from "@/components";
 import Stars from "@/components/Stars";
 
 const Hero = () => (
-  <section className=" relative z-30 w-full h-[95vh] sm:h-[100vh] flex text-white bg-[url('/main.svg')]">
+  <section className=" relative z-30 w-full h-[95vh] sm:h-[90vh] md:h-[100vh] xs:h-120 flex text-white lg:bg-[url('/main.svg')]">
     <div className="absolute w-full">
       <Navbar />
     </div>
@@ -28,7 +28,7 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="w-[90%] mx-auto text-white relative lg:top-[320px] top-[300px] z-30"
+      className="w-[90%] mx-auto text-white relative flex flex-col lg:top-[320px] top-[300px] z-30"
     >
       <div className=" w-[90%] flex gap-8 justify-center items-center lg:items-start lg:mx-0 mx-auto text-center lg:text-left flex-col ">
         <motion.h1
@@ -45,7 +45,7 @@ const Hero = () => (
           className="flex flex-row justify-center items-center"
         >
           <h1
-            className={`lg:text-[24px] text-[20px] font-normal text-slate-400 `}
+            className={`lg:text-[24px] md:text-[22px] text-[20px] font-normal text-slate-400 `}
           >
             Hi I’m Michael, a passionate react <br /> Front-end Dev as well as a
             UI/UX <br /> Designer
@@ -68,6 +68,7 @@ const Hero = () => (
           </div>
         </motion.div>
       </div>
+
       <motion.div
         variants={slideIn("right", "spring", 0.1, 2.0)}
         className="relative w-[50%] md:mt-[20px] -mt-[12px]"

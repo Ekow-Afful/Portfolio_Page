@@ -11,6 +11,17 @@
 
 /* START: General styles */
 
+@media (max-width: 400px) {
+  .xs\:h-120 {
+    height: 120vh;
+  }
+  .xs\:jb {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
 .paddings {
   @apply sm:p-16 p-8 md:px-6 py-12;
 }

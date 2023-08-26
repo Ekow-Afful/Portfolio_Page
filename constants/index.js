@@ -1,4 +1,4 @@
-export const exploreWorlds = [
+export const services = [
   {
     id: "world-1",
     imgUrl: "/webdev1.jpg",
@@ -22,22 +22,7 @@ export const startingFeatures = [
   "Future-Proof Your Online Presence: Embrace Advanced Responsiveness for Your Website.",
 ];
 
-export const newFeatures = [
-  {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
-  },
-  {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
-    subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
-  },
-];
-
-export const insights = [
+export const projects = [
   {
     imgUrl: "/beafit.png",
     title: "BeaFit Ghana",
@@ -81,5 +66,32 @@ export const socials = [
     name: "facebook",
     url: "/facebook.svg",
     link: "/",
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Beatrice Afful",
+    title: "Founder | BeaFit",
+    feedback:
+      "Service was lovely and right on time. I asked for a simple website to display a few of the things I do and you delivered",
+    image: "/beafit.png",
+  },
+  {
+    id: 2,
+    name: "Beatrice Afful",
+    title: "Founder | BeaFit",
+    feedback:
+      "Service was lovely and right on time. I asked for a simple website to display a few of the things I do and you delivered",
+    image: "/beafit.png",
+  },
+  {
+    id: 3,
+    name: "Beatrice Afful",
+    title: "Founder | BeaFit",
+    feedback:
+      "Service was lovely and right on time. I asked for a simple website to display a few of the things I do and you delivered",
+    image: "/beafit.png",
   },
 ];

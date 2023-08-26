@@ -8,19 +8,19 @@ import { planetVariants, fadeIn } from "../utils/motion";
 import Image from "next/image";
 
 const About2 = () => (
-  <section className="mt-0 w-[90%] relative z-10" id="about2">
+  <section className="mt-0 w-[100%] relative z-10" id="about2">
     <motion.div
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.5 }}
-      className=" w-screen flex flex-col gap-20 items-center justify-center"
+      className=" w-full flex flex-col gap-20 items-center justify-center"
     >
-      <motion.div className="flex-center flex-col-reverse sm:flex-row w-full">
+      <motion.div className="flex flex-col-reverse sm:flex-row w-full">
         <motion.div
           variants={fadeIn("right", "tween", 0.2, 1)}
           className="flex-[0.80] sm:w-[50%] flex justify-center flex-col mx-auto"
         >
-          <div className="xl:w-[90%] 2xl:w-[80%] sm:w-full w-[90%] mx-auto mb-[40px] ">
+          <div className="xl:w-[90%] 2xl:w-[80%] sm:w-full w-[96%] mx-auto mb-[40px] ">
             <TypingText textStyles="" title="| Our Goal" />
             <TitleText
               textStyles=""

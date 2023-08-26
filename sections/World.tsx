@@ -32,8 +32,8 @@ const World = () => (
         <Image
           src="/map.png"
           alt="map"
-          height={400}
-          width={400}
+          height={300}
+          width={300}
           loading="eager"
           className="w-full h-full object-contain"
         />
@@ -41,8 +41,8 @@ const World = () => (
           <Image
             src="/people-01.png"
             alt="people"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             className="w-[100%] h-[100%]"
           />
         </div>
@@ -51,13 +51,13 @@ const World = () => (
           <Image
             src="/people-03.png"
             alt="people"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             className="w-[100%] h-[100%]"
           />
         </div>
 
-        <div className="absolute top-[18%] left-[8%]  md:top-20  md:left-20  lg:top-[23%] lg:left-[10%] 2xl:top-[40%] 2xl:left-[47%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] ">
+        <div className="absolute top-[30%] left-[40%]  md:top-[40%]  md:left-[40%]  lg:top-[40%] lg:left-[40%] 2xl:top-[40%] 2xl:left-[47%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680] ">
           <Image
             src="/people-02.png"
             alt="people"

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import { ExploreCard, TitleText, TypingText } from "@/components";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import { exploreWorlds } from "@/constants";
+import { services } from "@/constants";
 
 const WhatWeOffer = () => {
   const [active, setActive] = useState("world-1");
@@ -30,10 +30,10 @@ const WhatWeOffer = () => {
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
+          {services.map((service, index) => (
             <ExploreCard
-              key={world.id}
-              {...world}
+              key={service.id}
+              {...service}
               index={index}
               active={active}
               handleClick={setActive}

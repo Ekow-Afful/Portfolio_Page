@@ -9,14 +9,14 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="w-[90%] relative top-0 z-10" id="about">
+    <section className="w-[100%] relative top-0 z-10" id="about">
       <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0] z-0" />
 
       <motion.div
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.5 }}
-        className="h-screen w-screen flex flex-col gap-20 items-center justify-center"
+        className="w-full flex flex-col gap-20 items-center justify-center"
       >
         <motion.div className="flex-center flex-col sm:flex-row w-full">
           <motion.div
@@ -38,7 +38,7 @@ const About = () => {
             variants={fadeIn("left", "tween", 0.5, 1)}
             className="flex-[0.80] sm:w-[50%] flex justify-center flex-col mx-auto"
           >
-            <div className="xl:w-[90%] 2xl:w-[80%] sm:w-full w-[86%] mx-auto mb-40 ">
+            <div className="xl:w-[90%] 2xl:w-[80%] sm:w-full w-[90%] mx-auto mb-40 flex items-start justify-center flex-col ">
               <TypingText textStyles="" title="| No boundaries" />
               <TitleText
                 textStyles=""
