@@ -1,14 +1,10 @@
 import { Navbar } from "@/components";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import Hero from "@/sections/Hero";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "600"],
-  variable: "--font-poppins",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Michael.dev",
@@ -23,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-[#030014] overflow-x-clip w-full ${poppins.className} `}
+        className={`bg-[#030014] overflow-x-clip w-full ${inter.className} `}
       >
         <div>
           {/* <Navbar /> */}
