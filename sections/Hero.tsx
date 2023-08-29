@@ -8,15 +8,18 @@ import { Navbar } from "@/components";
 import Stars from "@/components/Stars";
 
 const Hero = () => (
-  <section className=" relative z-30 w-full h-[95vh] sm:h-[90vh] md:h-[100vh] xs:h-120 flex text-white lg:bg-[url('/main.svg')]">
+  <section className=" relative z-10 w-full h-[95vh] sm:h-[90vh] md:h-[100vh] xs:h-120 flex text-white ">
     <div className="absolute w-full">
       <Navbar />
     </div>
+    <div className="absolute w-[200px] h-[300px] bg-[#7aebfb] blur-[250px] left-[42%] top-[0] -z-30" />
+
     <div className="absolute w-full -z-20 -top-[115px] left-[40%] mx-auto justify-center items-center">
       <Image
         src="/moon-2.png"
         width={800}
         height={800}
+        priority
         alt="moon"
         className="object-contain w-[250px] h-[250px]"
       />
@@ -28,9 +31,9 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="w-[90%] mx-auto text-white relative flex flex-col lg:top-[320px] top-[300px] z-30"
+      className="w-[90%] mt-[220px] mx-auto text-white relative flex items-center justify-center gap-10 z-30"
     >
-      <div className=" w-[90%] flex gap-8 justify-center items-center lg:items-start lg:mx-0 mx-auto text-center lg:text-left flex-col ">
+      <div className=" lg:w-[50%] flex gap-8 justify-center items-center mx-auto lg:items-start lg:mx-0 text-center lg:text-left flex-col pl-[30px] pt-[40px]">
         <motion.h1
           variants={textVariant(1.1)}
           className="text-center lg:text-left text-[47px] font-bold"
@@ -63,7 +66,7 @@ const Hero = () => (
               width={200}
               height={300}
               priority
-              className="object-contain"
+              className="object-contain w-[80%] h-[80%] "
             />
           </div>
         </motion.div>
@@ -71,16 +74,17 @@ const Hero = () => (
 
       <motion.div
         variants={slideIn("right", "spring", 0.1, 2.0)}
-        className="relative w-[50%] md:mt-[20px] -mt-[12px]"
+        className="relative lg:w-[50%] "
       >
-        <div className="absolute 2xl:bottom-[120px] 2xl:left-[850px] xl:bottom-[120px] xl:left-[770px] lg:bottom-[50px] lg:left-[600px] xl:w-[80%] w-[90%] h-[400px] lg:flex hidden ">
+        <div className="w-[100%] items-center justify-end ml-[120px] lg:flex hidden ">
           <Link href="#about ">
             <Image
               src="/header-3.svg"
               alt="hero image"
-              width={1000}
+              width={800}
               height={200}
-              className=" object-contain hover:-translate-x-1 hover:-translate-y-1 "
+              priority
+              className="w-[80%] h-[80%] object-contain hover:-translate-x-1 hover:-translate-y-1 "
             />
           </Link>
         </div>

@@ -10,6 +10,7 @@ import {
 
 import { testimonials } from "@/constants";
 import { useCallback, useState } from "react";
+import { TitleText } from "@/components";
 
 const Feedback = () => {
   const people = testimonials;
@@ -32,7 +33,18 @@ const Feedback = () => {
   const currentPerson = people[currentIndex];
 
   return (
-    <section className="paddings relative z-10 w-full">
+    <section className="paddings relative flex flex-col gap-10 z-10 w-full">
+      <TitleText
+        title={
+          <>
+            Testimo
+            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              nials
+            </span>
+          </>
+        }
+        textStyles="text-center"
+      />
       <motion.div
         initial="hidden"
         whileInView="show"

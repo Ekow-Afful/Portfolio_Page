@@ -10,7 +10,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <section className="w-[100%] relative top-0 z-10" id="about">
-      <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0] z-0" />
+      {/* <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0] z-0" /> */}
 
       <motion.div
         initial="hidden"
@@ -23,7 +23,7 @@ const About = () => {
             variants={planetVariants("left")}
             className="sm:w-[50%] flex-center "
           >
-            <div className="md:mt-[100px]">
+            <div className="md:mt-[10px]">
               <Image
                 src="/get-started.png"
                 alt="planet image"
@@ -57,7 +57,6 @@ const About = () => {
                       alt="arrow"
                       width={100}
                       height={100}
-                      priority
                       className="w-[40%] h-[40%] object-contain "
                     />
                   </div>
@@ -77,6 +76,7 @@ const About = () => {
               alt="arrow down"
               width={15}
               height={15}
+              className="w-auto h-auto"
             />
           </Link>
         </motion.div>

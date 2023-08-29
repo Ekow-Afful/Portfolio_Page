@@ -20,7 +20,7 @@ const World = () => (
         textStyles="text-center md:px-[12%]"
         title={
           <>
-            Unlocking Solutions Worldwide: Wherever you are, we've got the
+            Unlocking Solutions Worldwide: Wherever you are, I've got the
             perfect solution to your needs.
           </>
         }

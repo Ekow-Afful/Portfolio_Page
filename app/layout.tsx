@@ -1,4 +1,5 @@
-import { Navbar } from "@/components";
+"use client";
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";

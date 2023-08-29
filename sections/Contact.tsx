@@ -51,7 +51,7 @@ const Contact = () => {
               </h3>
             </motion.div>
 
-            <motion.div className="flex flex-row gap-4">
+            <motion.div className="w-full flex flex-row gap-4">
               <motion.div variants={slideIn("right", "spring", 0.4, 1.8)}>
                 <input
                   type="text"
@@ -84,8 +84,8 @@ const Contact = () => {
               </motion.div>
               <motion.div variants={slideIn("right", "spring", 0.4, 2.4)}>
                 <input
-                  type="number"
-                  name="number"
+                  type="text"
+                  name="text"
                   className="w-[100%] sm:w-full mb-[1rem] p-[10px_10px] md:p-[10px_10px] md:pr-20 text-[1.1rem] md:text-[1.2rem] text-white bg-transparent border-[1px] font-normal rounded-xl"
                   placeholder="Phone No."
                   required

@@ -21,7 +21,7 @@ const About2 = () => (
           className="flex-[0.80] sm:w-[50%] flex justify-center flex-col mx-auto"
         >
           <div className="xl:w-[90%] 2xl:w-[80%] sm:w-full w-[96%] mx-auto mb-[40px] ">
-            <TypingText textStyles="" title="| Our Goal" />
+            <TypingText textStyles="" title="| My Goal" />
             <TitleText
               textStyles=""
               title={<>Transforming Visions into Reality</>}

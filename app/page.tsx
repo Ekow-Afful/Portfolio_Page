@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "@/components/Navbar";
 import About from "@/sections/About";
 import About2 from "@/sections/About2";
 import Contact from "@/sections/Contact";
