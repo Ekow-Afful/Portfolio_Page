@@ -31,7 +31,7 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="w-[90%] mt-[220px] mx-auto text-white relative flex items-center justify-center gap-10 z-30"
+      className="sm:w-[90%] md:mt-[220px] mt-[120px] mx-auto text-white relative flex items-center justify-center gap-10 z-30"
     >
       <div className=" lg:w-[50%] flex gap-8 justify-center items-center mx-auto lg:items-start lg:mx-0 text-center lg:text-left flex-col pl-[30px] pt-[40px]">
         <motion.h1

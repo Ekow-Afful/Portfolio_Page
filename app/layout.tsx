@@ -1,4 +1,3 @@
-
 import "./globals.css";
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
@@ -24,10 +23,6 @@ export default function RootLayout({
       <body
         className={`bg-[#030014] overflow-x-clip w-full ${roboto.variable} font-Sans `}
       >
-        <div>
-          {/* <Navbar /> */}
-          <Hero />
-        </div>
         {children}
       </body>
     </html>

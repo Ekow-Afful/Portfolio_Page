@@ -9,10 +9,12 @@ import Skills from "@/sections/Skills";
 import World from "@/sections/World";
 import Projects from "@/sections/Projects";
 import Footer from "@/components/Footer";
+import Hero from "@/sections/Hero";
 
 export default function Home() {
   return (
     <main className=" text-white flex-col overflow-x-clip ">
+      <Hero />
       <div className="relative z-0 ">
         <About />
         <div className=" relative z-0 ">
