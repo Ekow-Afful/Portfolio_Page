@@ -55,17 +55,12 @@ export const socials = [
   {
     name: "linkedin",
     url: "/linkedin.svg",
-    link: "/",
+    link: "https://www.linkedin.com/in/michael-afful-16614128b?trk=contact-info",
   },
   {
     name: "instagram",
     url: "/instagram.svg",
-    link: "/",
-  },
-  {
-    name: "facebook",
-    url: "/facebook.svg",
-    link: "/",
+    link: "https://instagram.com/_shelovesmicky?igshid=OGQ5ZDc2ODk2ZA==",
   },
 ];
 

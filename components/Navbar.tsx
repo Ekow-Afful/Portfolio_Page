@@ -42,12 +42,15 @@ const Navbar = () => (
         <Link href="#projects">
           <h2 className="hidden lg:flex">Projects</h2>
         </Link>
-        <Link href="/">
+        <Link href="https://github.com/Ekow-Afful/" target="blank_">
           <div className="text-xl  cursor-pointer  hover:scale-105">
             <AiFillGithub />
           </div>
         </Link>
-        <Link href="/">
+        <Link
+          href="https://www.linkedin.com/in/michael-afful-16614128b?trk=contact-info"
+          target="blank_"
+        >
           <div className="text-xl  cursor-pointer  hover:scale-105">
             <BiLogoLinkedin />
           </div>
