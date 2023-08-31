@@ -56,35 +56,6 @@
   @apply flex justify-between items-center;
 }
 
-#Wecom-text {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
-    ),
-    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
-  background-blend-mode: normal, screen;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#Wecom-box {
-  isolation: isolate;
-  overflow: hidden;
-  align-items: center;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  border-radius: 32px;
-  box-shadow: inset 0 -7px 11px #a48fff1f;
-  display: flex;
-
-  position: relative;
-  width: -moz-max-content;
-  width: max-content;
-  transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
-}
-
 .bg-gradient {
   background: linear-gradient(90deg, rgba(178, 36, 104, 4), rgb(6, 8, 63));
   filter: blur(80%);
@@ -224,7 +195,7 @@
 .stars .dot {
   width: 7px;
   height: 7px;
-  background-color: rgba(255, 255, 255, 0.205);
+  background-color: rgba(32, 215, 228, 0.205);
   border-radius: 30%;
   position: absolute;
   animation: rotate 4s linear infinite;
