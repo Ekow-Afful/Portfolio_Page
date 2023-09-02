@@ -1,7 +1,7 @@
 function Stars() {
   return (
     <>
-      <div className="bg-black h-screen z-40 absolute left-[10%] top-[30%] items-center justify-center animate-pulse">
+      <div className="bg-black h-screen z-40 absolute left-[10%] top-[30%] items-center justify-center animate-pulse ">
         <div className="stars-container">
           <div className="stars">
             <div className="dot"></div>

@@ -1,3 +1,7 @@
+import { AiOutlineMail } from "react-icons/ai";
+import { BiLogoWhatsapp } from "react-icons/bi";
+import { LiaTelegramPlane } from "react-icons/lia";
+
 export const services = [
   {
     id: "world-1",
@@ -61,6 +65,30 @@ export const socials = [
     name: "instagram",
     url: "/instagram.svg",
     link: "https://instagram.com/_shelovesmicky?igshid=OGQ5ZDc2ODk2ZA==",
+  },
+];
+
+export const contacts = [
+  {
+    id: "1",
+    name: "Email",
+    text: "paakowweb@gmail.com",
+    imgUrl: <AiOutlineMail />,
+    link: "mailto:paakowweb@gmail.com",
+  },
+  {
+    id: "2",
+    name: "WhatsApp",
+    text: "+233 55 976 5572",
+    imgUrl: <BiLogoWhatsapp />,
+    link: "https://wa.link/dkgvxs",
+  },
+  {
+    id: "3",
+    name: "Telegram",
+    text: "@damn_michael",
+    imgUrl: <LiaTelegramPlane />,
+    link: "https://t.me/damn_michael",
   },
 ];
 

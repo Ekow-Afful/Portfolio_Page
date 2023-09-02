@@ -34,6 +34,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           <div className="flex-center w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px] hover:scale-90">
             <Image
               src="/headset.svg"
+              alt="headset"
               width={50}
               height={50}
               className="w-1/2 h-1/2 object-contain  "

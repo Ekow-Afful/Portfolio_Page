@@ -10,6 +10,7 @@ import World from "@/sections/World";
 import Projects from "@/sections/Projects";
 import Footer from "@/components/Footer";
 import Hero from "@/sections/Hero";
+import ReachMe from "@/components/ReachMe";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         {/* <div className="gradient-04 z-0" /> */}
         <Contact />
       </div>
+      <ReachMe />
       <Footer />
     </main>
   );

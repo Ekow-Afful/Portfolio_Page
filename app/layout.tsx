@@ -1,7 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
-import Hero from "@/sections/Hero";
 
 const roboto = Outfit({
   subsets: ["latin"],

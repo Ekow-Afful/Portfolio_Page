@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
-import Image from "next/image";
 import Link from "next/link";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { AiFillGithub } from "react-icons/ai";
