@@ -6,12 +6,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components";
 import Stars from "@/components/Stars";
+import { AiFillFilePdf } from "react-icons/ai";
 
 const Hero = () => (
   <section className=" relative z-10 w-full h-[95vh] sm:h-[90vh] md:h-[100vh] xs:h-120 flex text-white ">
     <div className="absolute w-full">
       <Navbar />
     </div>
+
     <div className="absolute w-[200px] h-[300px] bg-[#7aebfb] blur-[250px] left-[42%] top-[0] -z-30" />
 
     <div className="absolute w-full -z-20 -top-[115px] left-[40%] mx-auto justify-center items-center">
@@ -70,6 +72,17 @@ const Hero = () => (
             />
           </div>
         </motion.div>
+        <motion.div
+          variants={textVariant(1.6)}
+          className="hidden lg:flex justify-start gap-1 w-fit p-[10px] text-[18px] bg-[#ffffff14] "
+        >
+          <Link href="/Michael_Afful_Resume.pdf" target="_blank" download>
+            Download Resume
+          </Link>
+          <div className="">
+            <AiFillFilePdf style={{ color: "#ff0000", marginTop: "0.3rem" }} />
+          </div>
+        </motion.div>
       </div>
 
       <motion.div
@@ -87,6 +100,17 @@ const Hero = () => (
               className="w-[80%] h-[80%] object-contain hover:-translate-x-1 hover:-translate-y-1 "
             />
           </Link>
+        </div>
+      </motion.div>
+      <motion.div
+        variants={textVariant(1.6)}
+        className=" flex lg:hidden absolute bottom-10 justify-center gap-1 w-fit p-[10px] text-[16px] mx-auto bg-[rgba(255,_255,_255,_0.08)] hover:scale-105 hover:bg-[#00000057]  rounded-full"
+      >
+        <Link href="/Michael_Afful_Resume.pdf" target="_blank" download>
+          Download Resume
+        </Link>
+        <div className="">
+          <AiFillFilePdf style={{ color: "#ff0000", marginTop: "0.2rem" }} />
         </div>
       </motion.div>
     </motion.div>
