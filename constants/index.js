@@ -48,6 +48,13 @@ export const projects = [
       "A civil Engineering website designed and developed for one of the biggest civil engineering companies in Ghana. Built with React, Javascript and NextJs. Hosted online using Vercel",
     link: "https://facol-website.vercel.app",
   },
+  {
+    imgUrl: "/trust-power.png",
+    title: "Trust Power Website",
+    subtitle:
+      "A website designed and developed for a renewable energy company in ghana. Built with React, Nextjs, Typescript and Tailwindcss. Hosted online using versel. ",
+    link: "https://trust-power.vercel.app",
+  },
 ];
 
 export const socials = [
