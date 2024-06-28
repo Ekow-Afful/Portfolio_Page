@@ -53,7 +53,7 @@ export const projects = [
     title: "Trust Power Website",
     subtitle:
       "A website designed and developed for a renewable energy company in ghana. Built with React, Nextjs, Typescript and Tailwindcss. Hosted online using versel. ",
-    link: "https://trust-power.vercel.app",
+    link: "https://trustpowergh.com",
   },
 ];
 
