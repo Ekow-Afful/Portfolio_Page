@@ -34,13 +34,13 @@ export const projects = [
       "A simple Website for a moderate business owner with a simple design and no complex codes. Built with React and Javascript. Hosted online using Vercel.",
     link: "https://www.beafitgh.com",
   },
-  {
-    imgUrl: "/carshowcase.png",
-    title: "Car Showcase",
-    subtitle:
-      "A simple one page car showcase and rental, involving advanced api calls. Built with React, Typescript and NextJs. Hosted privately on Vercel.",
-    link: "/",
-  },
+  // {
+  //   imgUrl: "/carshowcase.png",
+  //   title: "Car Showcase",
+  //   subtitle:
+  //     "A simple one page car showcase and rental, involving advanced api calls. Built with React, Typescript and NextJs. Hosted privately on Vercel.",
+  //   link: "/",
+  // },
   {
     imgUrl: "/facol2.png",
     title: "Facol Website",
