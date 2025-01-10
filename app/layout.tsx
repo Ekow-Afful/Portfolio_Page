@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-[#030014] overflow-x-clip w-full ${roboto.variable} font-Sans `}
+        className={`bg-[#030014] overflow-x-clip w-full ${roboto.variable} font-Sans remove-scrollbar `}
       >
         {children}
       </body>

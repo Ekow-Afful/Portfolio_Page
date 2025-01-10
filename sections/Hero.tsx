@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import { slideIn, textVariant } from "../utils/motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components";
