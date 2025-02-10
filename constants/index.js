@@ -28,7 +28,7 @@ export const startingFeatures = [
 
 export const projects = [
   {
-    imgUrl: "/beafit.png",
+    imgUrl: "/bea-web.webp",
     title: "BeaFit Ghana",
     subtitle:
       "A simple Website for a moderate business owner with a simple design and no complex codes. Built with React and Javascript. Hosted online using Vercel.",
@@ -106,7 +106,7 @@ export const testimonials = [
     title: "Founder | BeaFit",
     feedback:
       "Service was lovely and right on time. I asked for a simple website to display a few of the things I do and you delivered",
-    image: "/beafit.png",
+    image: "/beafit-web.webp",
   },
   {
     id: 2,
@@ -114,7 +114,7 @@ export const testimonials = [
     title: "Founder | BeaFit",
     feedback:
       "Service was lovely and right on time. I asked for a simple website to display a few of the things I do and you delivered",
-    image: "/beafit.png",
+    image: "/beafit-web.webp",
   },
   {
     id: 3,
@@ -122,6 +122,6 @@ export const testimonials = [
     title: "Founder | BeaFit",
     feedback:
       "Service was lovely and right on time. I asked for a simple website to display a few of the things I do and you delivered",
-    image: "/beafit.png",
+    image: "/beafit-web.webp",
   },
 ];
