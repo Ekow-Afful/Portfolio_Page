@@ -31,7 +31,7 @@ export const projects = [
     imgUrl: "/bea-web.webp",
     title: "BeaFit Ghana",
     subtitle:
-      "A simple Website for a moderate business owner with a simple design and no complex codes. Built with React and Javascript. Hosted online using Vercel.",
+      "A Website for a moderate business owner with a simple design and code structure involving advanced api calls. Built with Nextjs, Typescript, Tailwindcss, Cloudinary. Hosted with Vercel.",
     link: "https://www.beafitgh.com",
   },
   // {
@@ -41,6 +41,13 @@ export const projects = [
   //     "A simple one page car showcase and rental, involving advanced api calls. Built with React, Typescript and NextJs. Hosted privately on Vercel.",
   //   link: "/",
   // },
+  {
+    imgUrl: "/defi-web.webp",
+    title: "Defi Coin",
+    subtitle:
+      "A simple website for traders with an integrated payment system, involving api calls. Built with Typescript, NextJs and PayStack. Hosted privately on Vercel.",
+    link: "https://www.defi-coin.net/",
+  },
   {
     imgUrl: "/facol2.png",
     title: "Facol Website",
