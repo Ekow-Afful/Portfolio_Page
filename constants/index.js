@@ -28,7 +28,7 @@ export const startingFeatures = [
 
 export const projects = [
   {
-    imgUrl: "/bea-web.webp",
+    imgUrl: "/bea_img.webp",
     title: "BeaFit Ghana",
     subtitle:
       "A Website for a moderate business owner with a simple design and code structure involving advanced api calls. Built with Nextjs, Typescript, Tailwindcss, Cloudinary. Hosted with Vercel.",
@@ -49,18 +49,18 @@ export const projects = [
     link: "https://www.defi-coin.net/",
   },
   {
-    imgUrl: "/facol2.png",
-    title: "Facol Website",
-    subtitle:
-      "A civil Engineering website designed and developed for one of the biggest civil engineering companies in Ghana. Built with React, Javascript and NextJs. Hosted online using Vercel",
-    link: "https://facol-website.vercel.app",
-  },
-  {
     imgUrl: "/trust-power.png",
     title: "Trust Power Website",
     subtitle:
       "A website designed and developed for a renewable energy company in ghana. Built with React, Nextjs, Typescript and Tailwindcss. Hosted online using versel. ",
     link: "https://trustpowergh.com",
+  },
+  {
+    imgUrl: "/facol2.png",
+    title: "Facol Website",
+    subtitle:
+      "A civil Engineering website designed and developed for one of the biggest civil engineering companies in Ghana. Built with React, Javascript and NextJs. Hosted online using Vercel",
+    link: "https://facol-website.vercel.app",
   },
 ];
 

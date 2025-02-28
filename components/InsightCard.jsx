@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import { insights } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,7 +16,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index, link }) => (
         alt="project"
         width={400}
         height={400}
-        className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover "
+        className="md:w-[400px] w-full h-[250px] rounded-[32px] object-cover "
       />
       <div className="w-full flex gap-10 justify-evenly items-center">
         <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]  ">
