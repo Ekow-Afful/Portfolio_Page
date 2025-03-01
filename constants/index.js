@@ -28,6 +28,13 @@ export const startingFeatures = [
 
 export const projects = [
   {
+    imgUrl: "/storehouse.webp",
+    title: "Store House",
+    subtitle:
+      "A  Cloud storage SAAS platform built with NextJs, Typescript, Tailwindcss and Appwrite, You can store all types of files and share to other users with accounts.",
+    link: "https://store-house-phi.vercel.app/sign-up",
+  },
+  {
     imgUrl: "/bea_img.webp",
     title: "BeaFit Ghana",
     subtitle:
