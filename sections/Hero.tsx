@@ -76,7 +76,7 @@ const Hero = () => (
           variants={textVariant(1.6)}
           className="hidden lg:flex justify-start gap-1 w-fit p-[10px] text-[18px] bg-[#ffffff14] "
         >
-          <Link href="/resume-new.pdf" target="_blank" download>
+          <Link href="/my-resume.pdf" target="_blank" download>
             Download Resume
           </Link>
           <div className="">
@@ -106,7 +106,7 @@ const Hero = () => (
         variants={textVariant(1.6)}
         className=" flex lg:hidden absolute bottom-10 justify-center gap-1 w-fit p-[10px] text-[16px] mx-auto bg-[rgba(255,_255,_255,_0.08)] hover:scale-105 hover:bg-[#00000057]  rounded-full"
       >
-        <Link href="/resume-new.pdf" target="_blank" download>
+        <Link href="/my-resume.pdf" target="_blank" download>
           Download Resume
         </Link>
         <div className="">
