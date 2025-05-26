@@ -1,17 +1,20 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 import { InsightCard, TitleText, TypingText } from "@/components";
 import { projects } from "@/constants";
 
 const Projects = () => (
-  <section className="paddings relative z-10 w-full" id="projects">
+  <section
+    className="paddings relative flex justify-center items-center z-10 w-full"
+    id="projects"
+  >
     <motion.div
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className="2xl:w-[75%] lg:w-[90%] mx-auto flex flex-col"
+      className="2xl:w-[75%] lg:w-[90%] mx-auto flex flex-col 2xl:max-w-[1400px]"
     >
       <TypingText title="| Projects" textStyles="text-center" />
       <TitleText

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 import { TitleText, TypingText } from "@/components";
 import { fadeIn, planetVariants, staggerContainer } from "../utils/motion";
@@ -9,14 +9,17 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="w-[100%] relative top-0 z-10" id="about">
+    <section
+      className="w-[100%] relative flex justify-center items-center top-0 z-10 "
+      id="about"
+    >
       {/* <div className="absolute w-[200px] h-[438px] bg-[#7aebfb] blur-[190px] left-[94%] top-[0] z-0" /> */}
 
       <motion.div
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.5 }}
-        className="w-full flex flex-col gap-20 items-center justify-center"
+        className="w-full flex flex-col gap-20 items-center justify-center 2xl:max-w-[1700px]"
       >
         <motion.div className="flex-center flex-col sm:flex-row w-full">
           <motion.div

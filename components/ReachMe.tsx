@@ -4,7 +4,7 @@ import { TitleText } from ".";
 
 const ReachMe = () => {
   return (
-    <section className="w-full flex flex-col ">
+    <section className="w-full flex flex-col mx-auto 2xl:max-w-[1400px] ">
       <TitleText
         title={
           <>

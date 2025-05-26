@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 import { startingFeatures } from "../constants";
 import { StartSteps, TitleText, TypingText } from "../components";
@@ -8,12 +8,15 @@ import { planetVariants, fadeIn } from "../utils/motion";
 import Image from "next/image";
 
 const About2 = () => (
-  <section className="mt-0 w-[100%] relative z-10" id="about2">
+  <section
+    className="mt-0 w-[100%] relative flex justify-center items-center z-10"
+    id="about2"
+  >
     <motion.div
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.5 }}
-      className=" w-full flex flex-col gap-20 items-center justify-center"
+      className=" w-full flex flex-col gap-20 items-center justify-center 2xl:max-w-[1700px]"
     >
       <motion.div className="flex flex-col-reverse sm:flex-row w-full">
         <motion.div

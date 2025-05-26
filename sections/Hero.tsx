@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
+
 import { slideIn, textVariant } from "../utils/motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,14 +10,14 @@ import Stars from "@/components/Stars";
 import { AiFillFilePdf } from "react-icons/ai";
 
 const Hero = () => (
-  <section className=" relative z-10 w-full h-[95vh] sm:h-[90vh] md:h-[100vh] xs:h-120 flex text-white ">
+  <section className=" relative z-10 w-full  h-[95vh] sm:h-[90vh] md:h-[100vh] xs:h-120 flex mx-auto text-white ">
     <div className="absolute w-full">
       <Navbar />
     </div>
 
-    <div className="absolute w-[200px] h-[300px] bg-[#7aebfb] blur-[250px] left-[42%] top-[0] -z-30" />
+    <div className="absolute flex place-content-center w-[200px] h-[300px] bg-[#7aebfb] blur-[250px] left-[44%] top-[0] -z-30" />
 
-    <div className="absolute w-full -z-20 -top-[115px] left-[40%] mx-auto justify-center items-center">
+    <div className="absolute w-full -z-20 -top-[115px] flex place-content-center ">
       <Image
         src="/moon-2.png"
         width={800}
@@ -33,7 +34,7 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="sm:w-[90%] md:mt-[220px] mt-[120px] mx-auto text-white relative flex items-center justify-center gap-10 z-30"
+      className="sm:w-[90%] md:mt-[220px] mt-[120px] 2xl:max-w-[1700px] mx-auto text-white relative flex items-center justify-center gap-10 z-30"
     >
       <div className=" lg:w-[50%] flex gap-8 justify-center items-center mx-auto lg:items-start lg:mx-0 text-center lg:text-left flex-col pl-[30px] pt-[40px]">
         <motion.h1

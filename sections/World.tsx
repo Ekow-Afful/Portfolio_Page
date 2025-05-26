@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 import { TitleText, TypingText } from "@/components";
 import { fadeIn } from "../utils/motion";
@@ -8,12 +8,12 @@ import { fadeIn } from "../utils/motion";
 import Image from "next/image";
 
 const World = () => (
-  <section className="paddings relative z-10">
+  <section className="paddings relative flex justify-center items-center z-10">
     <motion.div
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className="w-full mx-auto flex flex-col"
+      className="w-full mx-auto flex flex-col 2xl:max-w-[1700px]"
     >
       <TypingText textStyles="text-center" title="| Developer for Everyone" />
       <TitleText

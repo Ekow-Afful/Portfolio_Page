@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeIn, slideIn, staggerContainer, zoomIn } from "@/utils/motion";
 import Image from "next/image";
 import {
@@ -33,7 +33,7 @@ const Feedback = () => {
   const currentPerson = people[currentIndex];
 
   return (
-    <section className="paddings relative flex flex-col gap-10 z-10 w-full">
+    <section className="paddings relative flex flex-col justify-center items-center gap-10 z-10 w-full">
       <TitleText
         title={
           <>
@@ -49,7 +49,7 @@ const Feedback = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className="2xl:w-[75%] lg:w-[90%] w- mx-auto flex lg:flex-row flex-col gap-6"
+        className="2xl:w-[75%] lg:w-[90%] w- mx-auto flex lg:flex-row flex-col gap-6 2xl:max-w-[1400px]"
         key={currentPerson.id}
       >
         <motion.div

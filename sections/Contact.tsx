@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   fadeIn,
   footerVariants,
@@ -15,14 +15,14 @@ const Contact = () => {
   const [hide, setHide] = useState(false);
   return (
     <section
-      className="pt-10 relative z-10 bg-gradient flex w-full"
+      className="pt-10 relative flex justify-center  items-center z-10 bg-gradient  w-full"
       id="contact"
     >
       <motion.div
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className="2xl:w-[90%] lg:w-[90%] mx-auto flex flex-col px-4"
+        className="2xl:w-[90%] lg:w-[90%] mx-auto flex flex-col px-4 2xl:max-w-[1400px]"
       >
         <div className={hide ? "flex gap-0 sm:gap-12" : "flex gap-12"}>
           <motion.div

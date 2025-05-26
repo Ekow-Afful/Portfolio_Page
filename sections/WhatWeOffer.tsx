@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 import { ExploreCard, TitleText, TypingText } from "@/components";
 import { fadeIn, staggerContainer } from "../utils/motion";
