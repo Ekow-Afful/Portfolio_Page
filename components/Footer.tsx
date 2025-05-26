@@ -12,7 +12,7 @@ const Footer = () => {
       variants={footerVariants}
       initial="hidden"
       whileInView="show"
-      className=" md:w-[90%] mx-auto paddings py-8 relative"
+      className=" md:w-[90%] mx-auto 2xl:max-w-[1700px] paddings py-8 relative"
     >
       <div className="footer-gradient" />
 

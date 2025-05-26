@@ -11,7 +11,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`relative  z-20 w-[90%] mx-auto sm:py-4 py-3 mt-[2px] sm:mt-2 px-4 xs:jb rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 `}
+    className={`relative z-20 w-[90%] mx-auto 2xl:max-w-[1700px] sm:py-4 py-3 mt-[2px] sm:mt-2 px-4 xs:jb rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 `}
   >
     {/* <div className="absolute -left-80 w-[50%] inset-0 gradient-01" /> */}
     {/* <div className="absolute -z-20 -top-40 left-[35%]">
