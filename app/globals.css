@@ -280,3 +280,46 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+/* START: Hero (hero-two port) styles */
+
+.work-sans {
+  font-family: var(--font-work-sans);
+}
+
+.hero-two-nav-hover {
+  @apply relative after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 cursor-pointer;
+}
+
+.flair {
+  width: 50px;
+  height: 50px;
+  border: 1.3px solid #b2b3b4;
+  border-radius: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  pointer-events: none;
+}
+
+/* END: Hero (hero-two port) styles */
+
+/* START: Liquid glass floating nav */
+
+.liquid-glass-nav {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* END: Liquid glass floating nav */

@@ -28,7 +28,7 @@ const Navbar = () => (
       className={` text-white mx-auto flex justify-between items-center gap-8 `}
     >
       <Link href="/">
-        <h2 className="font-bold lg:text-[24px] text-[18px]">Michael.dev</h2>
+        <h2 className="font-bold lg:text-[24px] text-[18px]">Ekow.dev</h2>
       </Link>
 
       <div className="flex lg:gap-10 gap-4 items-center lg:text-[17px]">
