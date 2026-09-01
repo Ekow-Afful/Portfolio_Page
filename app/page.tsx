@@ -11,10 +11,12 @@ import Projects from "@/sections/Projects";
 import Footer from "@/components/Footer";
 import Hero from "@/sections/Hero";
 import ReachMe from "@/components/ReachMe";
+import FloatingNav from "@/components/FloatingNav";
 
 export default function Home() {
   return (
     <main className=" text-white flex-col overflow-x-clip ">
+      <FloatingNav />
       <Hero />
       <div className="relative z-0 ">
         <About />

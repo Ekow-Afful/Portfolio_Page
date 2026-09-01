@@ -139,3 +139,62 @@ export const testimonials = [
     image: "/beafit-web.webp",
   },
 ];
+
+/* ------------------------------------------------------------------ */
+/* Hero (hero-two layout, portfolio content)                           */
+/* Swap the images below to restyle the 3D card without touching JSX.  */
+/* ------------------------------------------------------------------ */
+
+export const heroContent = {
+  logo: "Ekow.dev",
+  logoLink: "/",
+  headline: "Full-stack developer creating polished Web and Mobile experiences",
+  techStackLabel: "Tech Stack",
+  techStackImg: "/techstack.svg",
+  resume: "/my-resume.pdf",
+  images: {
+    backdrop: "/hero2/background.webp",
+    subject: "/hero2/me.webp",
+    subjectAlt: "3d chrome portrait of Ekow, front-end web developer",
+    backdropAlt: "futuristic gradient backdrop",
+  },
+};
+
+export const heroNavItems = [
+  { name: "Skills", link: "#skills" },
+  { name: "Services", link: "#whatweoffer" },
+  { name: "Projects", link: "#projects" },
+  { name: "Let's connect", link: "#contact" },
+];
+
+export const heroSocials = [
+  {
+    id: 1,
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/michael-afful-16614128b?trk=contact-info",
+  },
+  {
+    id: 2,
+    name: "GitHub",
+    link: "https://github.com/Ekow-Afful/",
+  },
+  {
+    id: 3,
+    name: "Instagram",
+    link: "https://instagram.com/_shelovesmicky?igshid=OGQ5ZDc2ODk2ZA==",
+  },
+];
+
+export const heroEmail = {
+  name: "paakowweb@gmail.com",
+  link: "mailto:paakowweb@gmail.com",
+};
+
+/* Persistent glass nav shown once the hero has scrolled out of view. */
+export const floatingNavItems = [
+  { name: "About", link: "#about" },
+  { name: "Skills", link: "#skills" },
+  { name: "Services", link: "#whatweoffer" },
+  { name: "Projects", link: "#projects" },
+  { name: "Contact", link: "#contact" },
+];
